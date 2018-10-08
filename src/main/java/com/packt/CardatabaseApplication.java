@@ -29,7 +29,6 @@ public class CardatabaseApplication {
 		logger.info("Hello Spring Boot. Postgresql cardatabase. From Hal!");
 
 
-
 	}
 
 	@Bean
@@ -48,9 +47,9 @@ public class CardatabaseApplication {
 			repository.save(new Car("Toyota", "Prius", "Silver", "KKO-0212", 2018, 3900, owner1));
 
 			// username: user password: user
-			urepository.save(new User("user", "password2", "USER"));
+			//urepository.save(new User("user", "password", "USER"));
 			// username: admin password: admin
-			urepository.save(new User("admin", "password1", "ADMIN"));
+			//urepository.save(new User("admin", "password1", "ADMIN"));
 
 			//orepository.save(owner3);
 			//orepository.save(owner4);
